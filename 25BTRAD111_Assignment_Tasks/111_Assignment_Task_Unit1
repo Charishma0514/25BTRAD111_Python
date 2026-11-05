@@ -1,0 +1,160 @@
+Task 1
+Print your
+ Name
+ Department
+ College
+Each on a separate line.
+print(&quot;Name: Charishma&quot;)
+print(&quot;Department: AI DataEngineering&quot;)
+print(&quot;College: Jain university&quot;)
+
+Task 2
+Print the following pattern.
+*******
+*******
+*******
+print(&quot;*******&quot;)
+print(&quot;*******&quot;)
+print(&quot;*******&quot;)
+
+Task 3
+
+Print the following using a single print() statement.
+Python is Easy
+print(&quot;Python is Easy&quot;)
+
+Task 4
+Print
+1
+12
+123
+1234
+12345
+print(&quot;1&quot;)
+print(&quot;12&quot;)
+print(&quot;123&quot;)
+print(&quot;1234&quot;)
+print(&quot;12345&quot;)
+
+Task 5
+Use \n to print
+Computer
+Science
+Engineering
+print(&quot;Computer\nScience\nEngineering&quot;)
+
+Task 6
+
+Use \t to print
+Name Age City
+print(&quot;Name\tAge\tCity&quot;)
+
+Task 7
+Write a Python program with a single-line comment explaining the purpose of the program.
+# This program prints a welcome message
+print(&quot;Welcome to Python&quot;)
+
+Task 8
+Write a Python program using multi-line comments.
+&quot;&quot;&quot;
+This is a multi-line comment.
+It explains the purpose of the program.
+The program prints a simple message.
+&quot;&quot;&quot;
+print(&quot;Python is Easy&quot;)
+
+Task 9
+Write a program that contains
+ Three comments
+ Three print statements
+# First comment
+print(&quot;Hello&quot;)
+
+# Second comment
+
+print(&quot;I am Charishma&quot;)
+
+# Third comment
+print(&quot;Have a nice day&quot;)
+
+Task 10
+Create a variable called name.
+Store your name and print it.
+name = &quot;Charishma&quot;
+print(name)
+
+Task 11
+Store
+10
+20
+30
+in three different variables and print them.
+a = 10
+b = 20
+c = 30
+
+print(a)
+print(b)
+print(c)
+
+Task 12
+Create a program that converts the strings ”100” into an integer and displays its value and
+data type
+value = &quot;100&quot;
+value = int(value)
+
+print(value)
+print(type(value))
+
+Task 13
+Convert the integer 25 into a float and display the result and its type.
+num = 25
+num = float(num)
+
+print(num)
+print(type(num))
+
+Task 14
+Accept the user’s age using input(),convert it to an integer,and display the age.
+age = int(input(&quot;Enter your age: &quot;))
+
+print(&quot;Your age is:&quot;, age)
+
+Task 15
+Accept two numbers from the user, convert them to integers, and display their sum.
+a = int(input(“Enter first number:”))
+b = int(input(“Enter second number:”))
+
+sum = a + b
+print(“sum=”, sum)
+
+Task 16(Using f-string)
+Accept a student’s name, age and CGPA and display:
+My name is Charishma . I am 19 years old and my CGPA is 8.6.
+name = input(&quot;Enter your name: &quot;)
+age = int(input(&quot;Enter your age: &quot;))
+cgpa = float(input(&quot;Enter your CGPA: &quot;))
+
+print(f&quot;My name is {name}. I am {age} years old and my CGPA is {cgpa}.&quot;)
+
+Task 17
+Accept temperature in Celsius and convert it into Fahrenheit.
+Formula: F = (C × 9/5) + 32
+Display the result using an f-string with two decimal places.
+celsius = float(input(&quot;Enter temperature in Celsius: &quot;))
+
+fahrenheit = (celsius * 9 / 5) + 32
+
+print(f&quot;Temperature in Fahrenheit: {fahrenheit:.2f}&quot;)
+
+Task 18
+Accept an integer and determine whether it is even or odd using the % operator.
+Example:
+Enter number: 25
+Output: 25 is Odd
+num = int(input(&quot;Enter number: &quot;))
+
+if num % 2 == 0:
+print(f&quot;{num} is Even&quot;)
+else:
+print(f&quot;{num} is Odd&quot;)
