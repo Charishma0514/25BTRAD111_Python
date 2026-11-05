@@ -1,0 +1,20 @@
+Mini Project: Unit converter or bill generator
+Code:
+print(&quot;===== BILL GENERATOR =====&quot;)
+
+name = input(&quot;Enter customer name: &quot;)
+
+item = input(&quot;Enter item name: &quot;)
+price = float(input(&quot;Enter price: &quot;))
+quantity = int(input(&quot;Enter quantity: &quot;))
+
+total = price * quantity
+
+print(&quot;\n===== BILL =====&quot;)
+print(&quot;Customer Name:&quot;, name)
+print(&quot;Item:&quot;, item)
+print(&quot;Price: ₹&quot;, price)
+print(&quot;Quantity:&quot;, quantity)
+print(&quot;Total: ₹&quot;, total)
+print(&quot;================&quot;)
+print(&quot;Thank you!&quot;)
