@@ -1,0 +1,35 @@
+Lab Exercise 1: Installing Python, Setting up VS Code / PyCharm, Jupyter Notebook
+Step 1: Download and install Python.
+Step 2: During installation, tick Add Python to PATH.
+Step 3: Check Python installation:python --version
+Step 4: Download and install VS Code.
+Step 5: Open VS Code and install the Python extension.
+Step 6: Create a new Python file:hello.py
+Step 7: Write:
+print(&quot;Hello World&quot;)
+Step 8: Run the program.
+
+Lad Exercise 2 :Write and execute a basic Python program.
+print(&quot;hello world&quot;)
+print(&quot;welcome to phyton class room no 222A &quot;)
+
+Lab Exercise 3:Programs using variables, operators, and input/output.
+1.name = &quot;Charishma&quot;
+print(&quot;Name:&quot;, name)
+
+2.a = 20
+b = 5
+
+print(&quot;Addition =&quot;, a + b)
+print(&quot;Subtraction =&quot;, a - b)
+print(&quot;Multiplication =&quot;, a * b)
+print(&quot;Division =&quot;, a / b)
+print(&quot;Modulus =&quot;, a % b)
+
+Lab Exercise 4:Simple calculator and area calculation programs.
+length = float(input(&quot;Enter length: &quot;))
+width = float(input(&quot;Enter width: &quot;))
+
+area = length * width
+
+print(&quot;Area =&quot;, area)
